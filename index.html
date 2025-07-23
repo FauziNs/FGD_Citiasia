@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checklist Persiapan FGD - Fauzi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-slate-900 text-white">
+
+    <div class="container mx-auto max-w-4xl p-4 sm:p-6 md:p-8">
+        
+        <!-- Header -->
+        <header class="text-center mb-8">
+            <h1 class="text-3xl sm:text-4xl font-bold text-cyan-400">Panduan Persiapan FGD</h1>
+            <p class="text-slate-300 mt-2">Strategi Jitu untuk Fauzi dalam 6 Jam</p>
+        </header>
+
+        <!-- Progress Tracker -->
+        <div class="mb-8">
+            <div class="flex justify-between items-center mb-2">
+                <h3 class="font-semibold">Kemajuan Persiapan:</h3>
+                <span id="progressText" class="text-sm font-medium text-cyan-300">0 / 0 Selesai (0%)</span>
+            </div>
+            <div class="w-full bg-slate-700 rounded-full h-2.5">
+                <div id="progressBar" class="bg-cyan-500 h-2.5 rounded-full" style="width: 0%"></div>
+            </div>
+        </div>
+
+        <!-- Mindset Section -->
+        <div class="bg-slate-800/50 border border-slate-700 rounded-xl p-6 mb-8">
+            <h2 class="text-xl font-bold mb-4 text-amber-400">🧠 Mindset FGD yang Benar (Paling Penting!)</h2>
+            <ul class="list-disc list-inside space-y-2 text-slate-300">
+                <li>FGD bukan ajang debat untuk "menang".</li>
+                <li>Anggap ini simulasi meeting tim konsultan di Citiasia.</li>
+                <li>Tujuan rekruter adalah melihat: Cara Berpikir, Kemampuan Komunikasi, Kolaborasi, dan Potensi Kepemimpinan.</li>
+            </ul>
+        </div>
+
+        <!-- To-Do List Sections -->
+        <div class="space-y-6">
+
+            <!-- Jam ke-1 & ke-2: Riset -->
+            <div class="bg-slate-800 rounded-xl p-6">
+                <h2 class="text-xl font-bold mb-4">Jam ke-1 & 2: Riset Cepat & Penguatan Konteks</h2>
+                <div class="space-y-4">
+                    <div class="flex items-start">
+                        <input id="task1" type="checkbox" class="task-checkbox h-5 w-5 mt-1 bg-slate-700 border-slate-600 rounded text-cyan-500 focus:ring-cyan-600">
+                        <label for="task1" class="ml-3 text-slate-200">
+                            <span class="font-semibold">Baca Ulang Esai UMKM:</span> Pahami kembali alur argumen yang telah dibuat.
+                        </label>
+                    </div>
+                    <div class="flex items-start">
+                        <input id="task2" type="checkbox" class="task-checkbox h-5 w-5 mt-1 bg-slate-700 border-slate-600 rounded text-cyan-500 focus:ring-cyan-600">
+                        <label for="task2" class="ml-3 text-slate-200">
+                           <span class="font-semibold">Review Profil Citiasia:</span> Ingat kata kunci (Smart City, Transformasi Digital, Master Plan, dll).
+                        </label>
+                    </div>
+                    <div class="flex items-start">
+                        <input id="task3" type="checkbox" class="task-checkbox h-5 w-5 mt-1 bg-slate-700 border-slate-600 rounded text-cyan-500 focus:ring-cyan-600">
+                        <label for="task3" class="ml-3 text-slate-200">
+                            <span class="font-semibold">Pindai Berita Terbaru (30 Menit):</span> Cari 2-3 artikel relevan (transformasi digital pemda, smart city).
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Jam ke-3: Kerangka Analisis -->
+            <div class="bg-slate-800 rounded-xl p-6">
+                <h2 class="text-xl font-bold mb-4">Jam ke-3: Siapkan Kerangka Analisis Universal</h2>
+                <div class="space-y-4">
+                    <div class="flex items-start">
+                        <input id="task4" type="checkbox" class="task-checkbox h-5 w-5 mt-1 bg-slate-700 border-slate-600 rounded text-cyan-500 focus:ring-cyan-600">
+                        <label for="task4" class="ml-3 text-slate-200">
+                            <span class="font-semibold">Siapkan Kerangka Problem-Solving di Kepala:</span>
+                            <ul class="list-decimal list-inside mt-2 pl-4 text-sm text-slate-300">
+                                <li>Identifikasi & Definisi Masalah</li>
+                                <li>Analisis Akar Masalah</li>
+                                <li>Rekomendasi Solusi (Teknologi, Proses, Edukasi)</li>
+                                <li>Implementasi & Metrik Keberhasilan</li>
+                            </ul>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Jam ke-4: Latihan & Teknis -->
+            <div class="bg-slate-800 rounded-xl p-6">
+                <h2 class="text-xl font-bold mb-4">Jam ke-4: Latihan & Persiapan Teknis</h2>
+                <div class="space-y-4">
+                    <div class="flex items-start">
+                        <input id="task5" type="checkbox" class="task-checkbox h-5 w-5 mt-1 bg-slate-700 border-slate-600 rounded text-cyan-500 focus:ring-cyan-600">
+                        <label for="task5" class="ml-3 text-slate-200">
+                            <span class="font-semibold">Latih Kalimat Pembuka (15 menit):</span> Siapkan perkenalan diri singkat dan padat.
+                        </label>
+                    </div>
+                    <div class="flex items-start">
+                        <input id="task6" type="checkbox" class="task-checkbox h-5 w-5 mt-1 bg-slate-700 border-slate-600 rounded text-cyan-500 focus:ring-cyan-600">
+                        <label for="task6" class="ml-3 text-slate-200">
+                            <span class="font-semibold">Cek Koneksi Internet:</span> Pastikan stabil.
+                        </label>
+                    </div>
+                     <div class="flex items-start">
+                        <input id="task7" type="checkbox" class="task-checkbox h-5 w-5 mt-1 bg-slate-700 border-slate-600 rounded text-cyan-500 focus:ring-cyan-600">
+                        <label for="task7" class="ml-3 text-slate-200">
+                            <span class="font-semibold">Cek Kamera dan Mikrofon:</span> Gunakan earphone agar jernih.
+                        </label>
+                    </div>
+                     <div class="flex items-start">
+                        <input id="task8" type="checkbox" class="task-checkbox h-5 w-5 mt-1 bg-slate-700 border-slate-600 rounded text-cyan-500 focus:ring-cyan-600">
+                        <label for="task8" class="ml-3 text-slate-200">
+                            <span class="font-semibold">Siapkan Lokasi:</span> Tenang, bebas gangguan, latar belakang rapi.
+                        </label>
+                    </div>
+                     <div class="flex items-start">
+                        <input id="task9" type="checkbox" class="task-checkbox h-5 w-5 mt-1 bg-slate-700 border-slate-600 rounded text-cyan-500 focus:ring-cyan-600">
+                        <label for="task9" class="ml-3 text-slate-200">
+                            <span class="font-semibold">Siapkan Catatan & Pulpen.</span>
+                        </label>
+                    </div>
+                     <div class="flex items-start">
+                        <input id="task10" type="checkbox" class="task-checkbox h-5 w-5 mt-1 bg-slate-700 border-slate-600 rounded text-cyan-500 focus:ring-cyan-600">
+                        <label for="task10" class="ml-3 text-slate-200">
+                            <span class="font-semibold">Kenakan Pakaian Rapi (Kemeja).</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Jam ke-5 & ke-6: Relaksasi -->
+            <div class="bg-slate-800 rounded-xl p-6">
+                <h2 class="text-xl font-bold mb-4">Jam ke-5 & 6: Relaksasi & Penguatan Mental</h2>
+                 <div class="space-y-4">
+                    <div class="flex items-start">
+                        <input id="task11" type="checkbox" class="task-checkbox h-5 w-5 mt-1 bg-slate-700 border-slate-600 rounded text-cyan-500 focus:ring-cyan-600">
+                        <label for="task11" class="ml-3 text-slate-200">
+                           <span class="font-semibold">Stop Informasi Baru:</span> Biarkan otak istirahat.
+                        </label>
+                    </div>
+                    <div class="flex items-start">
+                        <input id="task12" type="checkbox" class="task-checkbox h-5 w-5 mt-1 bg-slate-700 border-slate-600 rounded text-cyan-500 focus:ring-cyan-600">
+                        <label for="task12" class="ml-3 text-slate-200">
+                           <span class="font-semibold">Buat Minuman Hangat & Makan Ringan.</span>
+                        </label>
+                    </div>
+                    <div class="flex items-start">
+                        <input id="task13" type="checkbox" class="task-checkbox h-5 w-5 mt-1 bg-slate-700 border-slate-600 rounded text-cyan-500 focus:ring-cyan-600">
+                        <label for="task13" class="ml-3 text-slate-200">
+                            <span class="font-semibold">Baca Ulang Bagian "Mindset FGD".</span>
+                        </label>
+                    </div>
+                     <div class="flex items-start">
+                        <input id="task14" type="checkbox" class="task-checkbox h-5 w-5 mt-1 bg-slate-700 border-slate-600 rounded text-cyan-500 focus:ring-cyan-600">
+                        <label for="task14" class="ml-3 text-slate-200">
+                            <span class="font-semibold">Tarik Napas Dalam-dalam:</span> Masuk dengan percaya diri.
+                        </label>
+                    </div>
+                </div>
+            </div>
+             <!-- Tips Selama FGD -->
+            <div class="bg-slate-800/50 border border-slate-700 rounded-xl p-6 mt-8">
+                <h2 class="text-xl font-bold mb-4 text-amber-400">💡 Tips Kunci Selama FGD Berlangsung</h2>
+                <ul class="list-none space-y-3 text-slate-300">
+                    <li class="flex items-center"><span class="text-cyan-400 mr-3">✔</span> Dengarkan Aktif dan catat poin.</li>
+                    <li class="flex items-center"><span class="text-cyan-400 mr-3">✔</span> Sebut nama teman diskusi untuk menunjukkan apresiasi.</li>
+                    <li class="flex items-center"><span class="text-cyan-400 mr-3">✔</span> Jadilah jembatan jika ada pendapat berbeda.</li>
+                    <li class="flex items-center"><span class="text-cyan-400 mr-3">✔</span> Tawarkan diri (time keeper/pencatat) untuk menunjukkan inisiatif.</li>
+                    <li class="flex items-center"><span class="text-cyan-400 mr-3">✔</span> Gunakan data/contoh dari riset cepat.</li>
+                    <li class="flex items-center"><span class="text-cyan-400 mr-3">✔</span> Jangan memotong pembicaraan atau mendominasi.</li>
+                    <li class="flex items-center"><span class="text-cyan-400 mr-3">✔</span> Bertanya jika bingung, itu lebih baik daripada diam.</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <footer class="text-center mt-12">
+            <p class="text-slate-400">Dibuat untuk membantu persiapanmu. Semoga sukses, Fauzi!</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
